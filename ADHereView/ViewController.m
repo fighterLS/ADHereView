@@ -7,18 +7,25 @@
 //
 
 #import "ViewController.h"
-
+#import "AdHereDragView.h"
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    [ [AdHereDragView sharedInstance] showAssistiveTouch];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [[AdHereDragView sharedInstance] showAssistiveTouch];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

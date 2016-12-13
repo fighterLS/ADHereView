@@ -15,6 +15,7 @@
 		C260424D1DF93FBF00B87304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C260424B1DF93FBF00B87304 /* LaunchScreen.storyboard */; };
 		C26042581DF93FBF00B87304 /* ADHereViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26042571DF93FBF00B87304 /* ADHereViewTests.m */; };
 		C26042631DF93FBF00B87304 /* ADHereViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26042621DF93FBF00B87304 /* ADHereViewUITests.m */; };
+		C26042751DF9434D00B87304 /* AdHereDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26042741DF9434D00B87304 /* AdHereDragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C260425E1DF93FBF00B87304 /* ADHereViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHereViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26042621DF93FBF00B87304 /* ADHereViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHereViewUITests.m; sourceTree = "<group>"; };
 		C26042641DF93FBF00B87304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26042731DF9434D00B87304 /* AdHereDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdHereDragView.h; sourceTree = "<group>"; };
+		C26042741DF9434D00B87304 /* AdHereDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdHereDragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C260424B1DF93FBF00B87304 /* LaunchScreen.storyboard */,
 				C260424E1DF93FBF00B87304 /* Info.plist */,
 				C260423D1DF93FBF00B87304 /* Supporting Files */,
+				C26042731DF9434D00B87304 /* AdHereDragView.h */,
+				C26042741DF9434D00B87304 /* AdHereDragView.m */,
 			);
 			path = ADHereView;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26042451DF93FBF00B87304 /* ViewController.m in Sources */,
+				C26042751DF9434D00B87304 /* AdHereDragView.m in Sources */,
 				C26042421DF93FBF00B87304 /* AppDelegate.m in Sources */,
 				C260423F1DF93FBF00B87304 /* main.m in Sources */,
 			);
